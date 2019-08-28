@@ -1,5 +1,5 @@
 ######################################################################
-# Author: Scott Heggen       TODO: Change this to your names
+# Author: Noah Eubanks, Sama Manalai       TODO: Change this to your names
 # Username: heggens               TODO: Change this to your usernames
 #
 # Assignment: T01: Choose Your Own Adventure
