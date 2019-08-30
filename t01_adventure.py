@@ -35,7 +35,7 @@ print("These flavors of ice-cream sound very interesting to you, and you want al
 print("But, you only have $1 in your pocket, and can only choose one.")
 print()
 sleep(delay)
-m
+
 #########################################################################################################
 # This is an example chapter. Your story will follow a similar structure.
 # You will learn more by NOT copy and pasting this section. Write your section on your own, and when you get stuck,
