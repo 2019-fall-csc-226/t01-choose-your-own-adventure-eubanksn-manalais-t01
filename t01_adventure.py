@@ -25,7 +25,7 @@ username = input("Hello, what is your name? ")
 #########################################################################################################
 # The following is the first part of the story. Don't change this section.
 print()
-print("Welcome,", username, ", to our ice-cream van.")
+print("Welcome,", username, ", to Noah and Sama's ultra magical secret van.")
 sleep(delay)
 print("You look hungry, would you like some ice-cream?.")
 print("We have three flavors to choose from; strawberry, pistachio, and chocolate.")
@@ -41,28 +41,32 @@ sleep(delay)
 # You will learn more by NOT copy and pasting this section. Write your section on your own, and when you get stuck,
 # refer to this code to help you get unstuck. Of course, raise your hand if you get really stuck.
 
-direction = input("Which direction would you like to go? [North/South/East/West]" )
+direction = input("Which flavor would you like? [Strawberry/Pistachio/Chocolate]" )
 
-if direction == "North":
+if direction == "Strawberry":
     # Good choice!
-    print("You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
+    print("Good choice!This makes you feel a lot better considering your friend disappeared mysteriously the other day.")
     sleep(delay)
-elif direction == "South":
+elif direction == "Chocolate":
     # Oh... Bad choice
-    print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
+    print("Here you go, this is a van favourite!")
     sleep(delay)
-    print("Oops. Turns out the cave was home to a nasty grizzly bear. ")
-    print("Running seems like a good idea now. But... it's really, really dark.")
-    print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
-    print("He eats you. You are delicious.")
-    dead = True
+    print("Oh it tastes so familiar but not in a good way")
+    print("At first you don't realize it but then you start feeling nauseous")
+    print("You start vomiting and ask 'what the hell was that?'")
+    print("The ice cream people tells you: Don't worry! It's just your friend!")
+
+
 else:
     # Neutral choice
-    print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+    print("You feel a tingling sensation in your throat, and you start puking blood and pistachios.")
+    print("As everything starts going black, you vaguely hear evil laughter. ")
+    print("The ice cream van starts up and a merry song starts playing and slowly fades away")
+    dead = True
     sleep(delay)
 
 if dead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    print("Hey friendo! Wanna make some more chocolate ice cream?")
     quit()
 
 #########################################################################################################
