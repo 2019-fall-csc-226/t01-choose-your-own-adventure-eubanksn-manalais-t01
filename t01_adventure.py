@@ -1,6 +1,6 @@
 ######################################################################
 # Author: Noah Eubanks, Sama Manalai       TODO: Change this to your names
-# Username: heggens               TODO: Change this to your usernames
+# Username: Eubanksn Manalais              TODO: Change this to your usernames
 #
 # Assignment: T01: Choose Your Own Adventure
 #
@@ -20,19 +20,19 @@ delay = 1.0          # change to 0.0 for testing/speed runs; larger for dramatic
 dead = False         # You start out not dead, which is good.
 
 # Asks the user to input their name.
-username = input("What do they call you, unworthy adversary? ")
+username = input("Hello, what is your name? ")
 
 #########################################################################################################
 # The following is the first part of the story. Don't change this section.
 print()
-print("Welcome,", username, ", to the labyrinth.")
+print("Welcome,", username, ", to our ice-cream van.")
 sleep(delay)
-print("Before you lies two paths. One path leads to treasures of unimaginable worth.")
-print("The other, certain death. Choose wisely.")
+print("You look hungry, would you like some ice-cream?.")
+print("We have three flavors to choose from; strawberry, pistachio, and chocolate.")
 print()
 sleep(delay * 2)
-print("You are in a dark cave. You can see nothing.")
-print("Staying here is certainly not wise. You must find your way out.")
+print("These flavors of ice-cream sound very interesting to you, and you want all of them!")
+print("But, you only have $1 in your pocket, and can only choose one.")
 print()
 sleep(delay)
 
