@@ -43,11 +43,11 @@ sleep(delay)
 
 direction = input("Which flavor would you like? [Strawberry/Pistachio/Chocolate]" )
 
-if direction == "Strawberry":
+if direction == "strawberry":
     # Good choice!
     print("Good choice!This makes you feel a lot better considering your friend disappeared mysteriously the other day.")
     sleep(delay)
-elif direction == "Chocolate":
+elif direction == "chocolate":
     # Oh... Bad choice
     print("Here you go, this is a van favourite!")
     sleep(delay)
@@ -55,7 +55,7 @@ elif direction == "Chocolate":
     print("At first you don't realize it but then you start feeling nauseous")
     print("You start vomiting and ask 'what the hell was that?'")
     print("The ice cream people tells you: Don't worry! It's just your friend!")
-
+    sleep(delay)
 
 else:
     # Neutral choice
